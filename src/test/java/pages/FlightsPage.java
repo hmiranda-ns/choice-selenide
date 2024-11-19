@@ -11,12 +11,12 @@ import static com.codeborne.selenide.Selenide.open;
 public class FlightsPage {
 
 	// Locators (injected through constructor)
-	private SelenideElement departureField;
-	private SelenideElement destinationField;
-	private SelenideElement departureDateField;
-	private SelenideElement returnDateField;
-	private SelenideElement travelersField;
-	private SelenideElement searchButton;
+	private final SelenideElement departureField;
+	private final SelenideElement destinationField;
+	private final SelenideElement departureDateField;
+	private final SelenideElement returnDateField;
+	private final SelenideElement travelersField;
+	private final SelenideElement searchButton;
 
 	// Constructor that accepts an instance of FlightsLocators
 	public FlightsPage(FlightsLocators locators) {

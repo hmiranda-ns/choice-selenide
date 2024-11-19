@@ -9,8 +9,8 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class ResultsLocators {
 
-	private SelenideElement sortList = $("#sort");
-	private List<SelenideElement> prices = $$(".price");
+	private final SelenideElement sortList = $("#sort");
+	private final List<SelenideElement> prices = $$(".price");
 
 	public SelenideElement getSortList() {
 		return sortList;

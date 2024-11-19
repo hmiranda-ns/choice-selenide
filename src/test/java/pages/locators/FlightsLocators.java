@@ -5,12 +5,12 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class FlightsLocators {
 
-	private SelenideElement departureField = $("#flight-from");
-	private SelenideElement destinationField = $("#flight-to");
-	private SelenideElement departureDateField = $("#departing");
-	private SelenideElement returnDateField = $("#returning");
-	private SelenideElement travelersField = $("#travelers");
-	private SelenideElement searchButton = $(".btn");
+	private final SelenideElement departureField = $("#flight-from");
+	private final SelenideElement destinationField = $("#flight-to");
+	private final SelenideElement departureDateField = $("#departing");
+	private final SelenideElement returnDateField = $("#returning");
+	private final SelenideElement travelersField = $("#travelers");
+	private final SelenideElement searchButton = $(".btn");
 
 	public SelenideElement getDepartureField() {
 		return departureField;

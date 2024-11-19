@@ -15,8 +15,8 @@ import org.testng.Assert;
 
 public class ResultsPage {
 
-	private SelenideElement sortList;
-	private List<SelenideElement> prices;
+	private final SelenideElement sortList;
+	private final List<SelenideElement> prices;
 
 	public ResultsPage(ResultsLocators locators) {
 		this.sortList = locators.getSortList();
